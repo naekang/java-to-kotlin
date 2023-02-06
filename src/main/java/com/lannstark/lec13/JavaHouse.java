@@ -14,16 +14,13 @@ public class JavaHouse {
     return livingRoom;
   }
 
-  public class LivingRoom {
+  public static class LivingRoom {
     private double area;
 
     public LivingRoom(double area) {
       this.area = area;
     }
 
-    public String getAddress() {
-      return JavaHouse.this.address;
-    }
   }
 
 }

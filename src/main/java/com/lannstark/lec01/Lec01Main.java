@@ -11,6 +11,9 @@ public class Lec01Main {
 
     Long number3 = 1_000L; // (3)
     Person person = new Person("최태현"); // (4)
+
+    List<Integer> numbers = Arrays.asList(1, 2);
+    numbers.add(23);
   }
 
 }
